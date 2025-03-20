@@ -7,9 +7,9 @@ from telethon import TelegramClient, events, functions
 from telethon.errors import FloodWaitError, RPCError
 
 # ========== [1] 텔레그램 API 설정 ==========
-API_ID = int(os.getenv("API_ID", "24989012"))
-API_HASH = os.getenv("API_HASH", "5756296aa12db217832d8c0f52968a3c")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+8801813154658")  # 예시
+API_ID = int(os.getenv("API_ID", "27001978"))
+API_HASH = os.getenv("API_HASH", "16fda4f0ee68df9d3bb7ff405e2b9732")
+PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+8801768061471")  # 예시
 
 SESSION_NAME = "my_telethon_session"
 client = TelegramClient(
